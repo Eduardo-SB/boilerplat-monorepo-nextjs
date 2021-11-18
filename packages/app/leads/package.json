@@ -1,0 +1,19 @@
+{
+  "name": "@fgts/leads",
+  "version": "0.0.0",
+  "description": "Frontend App leads",
+  "scripts": {
+    "dev": "next -p 3000",
+    "build": "yarn clean && next build && next export",
+    "clean": "rimraf .next && rimraf out",
+    "test": "jest --coverage --config ../../../jest.config.js ./src/**/* ./__tests__/**/*",
+    "start": "yarn build && cd out && ws -p 3000"
+  },
+  "config": {
+    "port": 3000
+  },
+  "author": "Eduardo da Silva Brandão - The Rockets",
+  "dependencies": {
+    "@fgts/utils": "1.0.0"
+  }
+}

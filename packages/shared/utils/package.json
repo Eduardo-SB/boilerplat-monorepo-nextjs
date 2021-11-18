@@ -1,0 +1,10 @@
+{
+  "name": "@fgts/utils",
+  "version": "1.0.0",
+  "description": "Utils functions",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest --coverage --config ../../../jest.config.js ./src/*"
+  },
+  "author": "Eduardo da Silva Brandão - The Rockets"
+}
